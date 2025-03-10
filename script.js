@@ -5,7 +5,8 @@ const facts = [
     "My great-grandfather was a composer.",
     "I once was left behind by my teacher during a school ski course. I had to join another teacher's group to not get lost completely.",
     "I've known 'Wicked' inside out years before the movie came out. Since then it's become my whole personality (again).",
-    "I've completed a Dutch-language summer course in Hungary. Talk about random."
+    "I've completed a Dutch-language summer course in Hungary. Talk about random.",
+    "I once wrote a love story about the two clock hands of Big Ben for school. And I reused this story for another text for a language course in University."
 ];
 
 function select_random_fact() {
