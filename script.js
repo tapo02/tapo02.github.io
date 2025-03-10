@@ -5,8 +5,10 @@ const facts = [
     "My great-grandfather was a composer.",
     "I once was left behind by my teacher during a school ski course. I had to join another teacher's group to not get lost completely.",
     "I've known 'Wicked' inside out years before the movie came out. Since then it's become my whole personality (again).",
-    "I've completed a Dutch-language summer course in Hungary. Talk about random.",
-    "I once wrote a love story about the two clock hands of Big Ben for school. And I reused this story for another text for a language course in University."
+    "I've attended a Dutch-language summer course in Hungary. Talk about random.",
+    "I once wrote a love story about the two clock hands of Big Ben for school. And I reused this story for another text for a language course in University.",
+    "It took a friend and me about 45 minutes to co-write our first (and up until now only) song 'Ohne Text'. It's about how hard it is to sing a song if you don't remember the lyrics and don't have accompanying music.",
+    "I once was part of the Beirat of the Kinderuni."
 ];
 
 function select_random_fact() {
@@ -22,3 +24,4 @@ function hide_fact() {
 
 document.getElementById("fact_generator").addEventListener("click", select_random_fact);
 document.getElementById("hide_button").addEventListener("click", hide_fact);
+

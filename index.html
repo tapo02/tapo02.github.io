@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>This is me, Tanja</title>
+        <title>This is me, Tanja.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>This is me, Tanja</h1>
-        <figure>
-            <img id="headshot" src="./IMG_0050.jpg" alt="headshot">
-            <figcaption>A quick sketch of myself. I very rarely draw though. Also I normally don't wear lipstick even though it looks like it on this drawing. The messy hair is accurate though.</figcaption>
-        </figure>
-        
-        <p>Hi and welcome to my website. This is where you can find some (not so useful) information about me. </p>
-        <p>To get the basics out of the way: My name is Tanja and I am a DH student at the University of Vienna with a background in Linguistics. </p>
-        <h2>Random Fact Generator</h2>
-        <button id="fact_generator">Click here to generate a random fact</button>
-        <button id="hide_button">Hide fact</button>
-        <p id="fact"></p> <!--to display the fact with js-->
+        <div id="header">
+            <h1>This is me, Tanja.</h1>
+            <p>Hi and welcome to my website. This is where you can find some (not so useful) information about me. </p>
+        </div>
 
+        <div id="content">
+            <figure>
+                <img id="headshot" src="./IMG_0050.jpg" alt="headshot">
+                <figcaption>A quick sketch of myself. I very rarely draw though. Also I normally don't wear lipstick even though it looks like it on this drawing. The messy hair is accurate though.</figcaption>
+            </figure>
+            
+            <p>To get the basics out of the way: My name is Tanja and I am a DH student at the University of Vienna with a background in Linguistics. </p>
+            
+            <h2>Random Fact Generator</h2>
+            <div id="buttons">
+                <button id="fact_generator">Click here to generate random fact</button>
+                <button id="hide_button">Hide fact</button>
+            </div>
+            <p id="fact"></p> <!--to display the fact with js-->
+            
+            <h2>11<sup>th</sup> Grade Me's Opinion On Time Travel</h2>
+            <p>In 11<sup>th</sup> grade, I had to state my opinion on what I thought of time travel. Naturally, past-me's opinion on this is essential for you, dear visitor of my website. So here's the text:</p>
+            
+            <div class="time_travel_text">
+                <h3>Time Travel: Pure Fiction or Future Reality?</h3>
+                <p>Authors and screenwriters come up with several theories of how time travelling “machines” work. Whether it’s H.G. Wells’ time machine, the famous DeLorean from “Back to the Future”, the Time-Turner from the Harry Potter books or just a combination of several artifacts, most authors use built machines due to a simplification of the possibility of travelling through time. I refuse to believe that time travelling would only be possible with machines – I think we’re just not capable of inventing and developing new options yet.</p>
+                <p>So, what if we invented time travelling? Would we have new technology? Would we suddenly be able of curing diseases? I don’t think so. If we take the fact that, as the foundation of my theory, only one timeline exists, we can conclude that changing neither the past nor the future is possible. This is because the past is before the present. Let’s look at this example: The future-me travels back in time and kills John Lennon. Although the present-me knows that John Lennon was killed, it doesn’t know that John Lennon was killed by the future-me. As a consequence, both the past and the future are unchangeable as it is clear that the future-me will have killed John Lennon in the past. Therefore technological implications aren’t possible since both the past and the future are already written.</p>
+                <p>If I’d have to decide whether I travel into the past or the future first, I personally would be more interested in travelling back in time to see real dinosaurs or learn Latin the way in was pronounced. Furthermore, it would be much easier and more interesting to learn about history through living it.</p>
+                <p>To come back to the original question: Although Albert Einstein has laid the foundation for travelling through time with his theory of relativity, reality is still far away from “holidays in the past”. Until then, we have to be satisfied with fiction such as Star Trek.</p>
+            </div>
+        </div>
+        
         <script id="js_script" src="./script.js"></script>
     </body>
 </html>
