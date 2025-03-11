@@ -4,7 +4,7 @@ const facts = [
     "Whenever I discover new songs I like, I listen to them nonstop until I don't like them anymore. Self-sabotage at its finest.",
     "My great-grandfather was a composer.",
     "I once was left behind by my teacher during a school ski course. I had to join another teacher's group to not get lost completely.",
-    "I've known 'Wicked' inside out years before the movie came out. Since then it's become my whole personality (again).",
+    "I've known 'Wicked' inside out years before the movie came out. And since the release of the movie it's become my whole personality (again).",
     "I've attended a Dutch-language summer course in Hungary. Talk about random.",
     "I once wrote a love story about the two clock hands of Big Ben for school. And I reused this story for another text for a language course in University.",
     "It took a friend and me about 45 minutes to co-write our first (and up until now only) song 'Ohne Text'. It's about how hard it is to sing a song if you don't remember the lyrics and don't have accompanying music.",
